@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://Spectrevuln-sketch.github.io/Porto",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
