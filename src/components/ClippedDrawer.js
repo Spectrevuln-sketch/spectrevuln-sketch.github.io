@@ -7,7 +7,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Toolbar from '@material-ui/core/Toolbar';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
-import {lowerItems, upperItems} from './../vars/drawerItems'
+import {upperItems} from './../vars/drawerItems'
 import {MemoryRouter} from 'react-router-dom'
 import Routes from "./Routes";
 import IconButton from "@material-ui/core/IconButton/IconButton";
@@ -26,7 +26,7 @@ const styles = theme => ({
     },
     appBar: {
         zIndex: theme.zIndex.drawer + 1,
-        backgroundColor: '#4CAF50'
+        backgroundColor: '#7fb3d5'
     },
     drawer: {
         width: drawerWidth,
@@ -61,8 +61,8 @@ const styles = theme => ({
 const routes = [
     '/',
     '/skills',
-    '/projects',
     '/contact',
+    '/experiance',
 ]
 
 function ClippedDrawer(props) {
@@ -110,22 +110,7 @@ function ClippedDrawer(props) {
                                     ))
                                 }
                             </List>
-                            <Divider style={{marginTop: 16}}/>
-
-                            <Typography style={{color: '#212121', margin: 16, fontSize: 18, fontStyle: 'italic'}}>
-                                My Social Links
-                            </Typography>
-
-                            <Divider/>
-
-                            <List>
-                                {
-                                    lowerItems.map((item, index) => (
-                                        <ListItemLinkShorthand key={index} primary={item.myName} to={item.URL}/>
-                                    ))
-                                }
-                            </List>
-                        </div>
+                            </div>
 
                     </Drawer>
                     <main className={classes.content}>

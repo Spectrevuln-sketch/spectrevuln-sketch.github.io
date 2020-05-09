@@ -17,6 +17,7 @@ const Routes = (props) => (
         <Route path='/skills' component={Skills}/>
         <Route path='/projects' component={Works}/>
         <Route path='/contact' component={Contact}/>
+        
     </AnimatedSwitch>
 );
 

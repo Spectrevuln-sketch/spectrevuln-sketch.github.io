@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color:  #2c3e50;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,8 +39,8 @@
 .hr1 {
   border:none;
   border-top: 2px dashed #757575;
-  color:#fff;
-  background-color:#fff;
+  color:#85c1e9;
+  background-color:#85c1e9;
   height:1px;
   width:80%;
 
